@@ -27,6 +27,7 @@ class SearchScreen extends StatelessWidget {
     double screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
+   backgroundColor: Colors.black,
       body: Padding(
         padding: EdgeInsets.only(left: screenWidth * 0.03,right: screenWidth * 0.03, top: screenHeight * 0.07), // Reduced vertical padding
         child: Column(

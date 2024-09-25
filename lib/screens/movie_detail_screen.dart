@@ -23,6 +23,7 @@ class MovieDetailScreen extends StatelessWidget {
     var size = MediaQuery.of(context).size;
 
     return Scaffold(
+     backgroundColor: Colors.black,
       body: SingleChildScrollView( 
         padding: EdgeInsets.symmetric(
           horizontal: size.width * 0.02,

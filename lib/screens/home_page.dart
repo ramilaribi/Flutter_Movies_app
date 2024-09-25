@@ -13,6 +13,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size; 
     return Scaffold(
+     backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: Row(
