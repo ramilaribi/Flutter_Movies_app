@@ -1,17 +1,39 @@
-# Flutter_Movies_app
+# 🎬 Movies App
 
-A new Flutter project.
+A Flutter application using Getx for state management that showcases a list of movies using the TVmaze API. The app includes a splash screen, home screen, search screen, and details screen for a seamless movie browsing experience. 🌟
 
-## Getting Started
+## 📋 Features
 
-This project is a starting point for a Flutter application.
+- **Splash Screen**: Displays an introductory image related to the app theme. 🎉
+- **Home Screen**: 
+  - Lists all movies fetched from the TVmaze API. 📺
+  - Each movie is displayed with a thumbnail image, title, and summary. 🖼️
+  - Includes a search bar to navigate to the search screen. 🔍
+- **Search Screen**: 
+  - Allows users to search for movies by name. 📝
+  - Displays search results in a similar format to the home screen. 📄
+- **Details Screen**: 
+  - Shows detailed information about the selected movie, including the image, title, and summary. 🧐
+- **Bottom Navigation**: 
+  - Easy navigation between the Home Screen and Search Screen. 📱
 
-A few resources to get you started if this is your first Flutter project:
+## 🌐 API Endpoints
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Home Screen**: 
+  - Fetch movies: 
+    ```plaintext
+    https://api.tvmaze.com/search/shows?q=all
+    ```
+  
+- **Search Screen**: 
+  - Search movies: 
+    ```plaintext
+    https://api.tvmaze.com/search/shows?q={search_term}
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Flutter_Movies_app
+## ⚙️ Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ramilaribi/movies_app.git
