@@ -7,7 +7,7 @@ import 'package:movie_app/screens/movie_detail_screen.dart';
 import 'package:movie_app/widgets/show_movie_widget.dart';
 
 class HomePage extends StatelessWidget {
-  final MovieController movieController = Get.put(MovieController());
+  final MovieController movieController = Get.find<MovieController>();
 
   @override
   Widget build(BuildContext context) {
